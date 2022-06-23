@@ -1,0 +1,68 @@
+body {
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(32,5,67,1) 0%, rgba(154,25,189,1) 35%, rgba(0,212,255,1) 100%);
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+img {
+  margin-top: -50px;
+  width: 250px;
+  height: 250px;
+  z-index: 1;
+  cursor: wait;
+  animation: ball 4s linear infinite;
+  filter: drop-shadow(7px 7px #000000);
+  -webkit-filter: drop-shadow(7px 7px 7px #000000);
+}
+
+@keyframes ball {
+  100% {
+    transform: rotate(360deg);
+  }
+  
+}
+
+#container {
+  margin-top: 100px;
+  width: 80%;
+  max-width: 400px;
+  margin-inline: auto;
+}
+
+h1 {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  opacity: 0.9;
+  text-shadow: 3px 3px 3px black;
+}
+
+p {
+  margin-bottom: 40px;
+  opacity: 0.7;
+  text-shadow: 2px 2px 2px black;
+
+}
+
+input {
+  display: block;
+  width: 356px;
+  
+  padding: 20px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+button {
+  display: block;
+  width: 400px;
+  
+  padding: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: linear-gradient(180deg, rgba(154,25,189,1) 35%, rgba(0,212,255,1) 100%);
+  border-radius: 15px;
+}
