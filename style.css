@@ -11,7 +11,7 @@ img {
   height: 250px;
   z-index: 1;
   cursor: wait;
-  animation: ball 4s linear infinite;
+  animation: ball 7s linear infinite;
   filter: drop-shadow(7px 7px #000000);
   -webkit-filter: drop-shadow(7px 7px 7px #000000);
 }
